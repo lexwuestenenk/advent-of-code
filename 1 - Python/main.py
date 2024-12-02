@@ -23,10 +23,10 @@ def main():
     file = ""
 
     if DEBUG == True:
-        file_path = f"1/input/t_input_{"one" if PART == 1 else "two"}.txt"
+        file_path = f"1 - Python/input/t_input_{"one" if PART == 1 else "two"}.txt"
         file = open(file_path)
     else: 
-        file_path = f"1/input/input.txt"
+        file_path = f"1 - Python/input/input.txt"
         file = open(file_path)
 
     if PART == 1:
